@@ -1335,7 +1335,7 @@ checksum = "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b"
 
 [[package]]
 name = "double_dot_macro"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "bevy",
  "double_dot_macro_derive",
@@ -1346,9 +1346,9 @@ dependencies = [
 
 [[package]]
 name = "double_dot_macro_derive"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8aa6c028e6a0115b8aa2310fe7c5194a59fcb3bf8fb1e770914b3de44b2f089"
+checksum = "309f162e0897a9a596fe94d5be570e587501b57618edd0de1d5e1020d5ba1436"
 dependencies = [
  "double_dot_macro_types",
  "quote",

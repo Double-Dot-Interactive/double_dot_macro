@@ -1,6 +1,6 @@
 pub use double_dot_macro_derive::*;
 pub use double_dot_macro_types::*;
-pub trait DoubleState {
+pub trait DoubleStates {
     /// Returns the name of the enum
     fn name(&self) -> &'static str;
     /// Attempts to find a valid linear transition for the current self state.
@@ -18,7 +18,7 @@ pub trait DoubleState {
 }
 
 /// Enum for Testing purposes
-#[derive(Clone, Eq, PartialEq, Debug, Hash, DoubleState, Default)]
+#[derive(Clone, Eq, PartialEq, Debug, Hash, DoubleStates, Default)]
 enum State {
     #[linear(MainMenu)]
     Loading,
