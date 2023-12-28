@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./double_dot_macro_types/Cargo.toml",
+        "./Cargo.toml",
+        "./double_dot_macro_derive/Cargo.toml"
+    ]
+}
