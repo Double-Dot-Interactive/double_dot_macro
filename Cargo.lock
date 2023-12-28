@@ -1347,6 +1347,8 @@ dependencies = [
 [[package]]
 name = "double_dot_macro_derive"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f8aa6c028e6a0115b8aa2310fe7c5194a59fcb3bf8fb1e770914b3de44b2f089"
 dependencies = [
  "double_dot_macro_types",
  "quote",
@@ -1356,6 +1358,8 @@ dependencies = [
 [[package]]
 name = "double_dot_macro_types"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1d2506439934b4c47802ef7ab53db6341d38bb166965e002eaf5dc618446d55e"
 dependencies = [
  "proc-macro2",
  "quote",
