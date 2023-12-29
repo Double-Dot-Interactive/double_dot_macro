@@ -14,8 +14,8 @@ readme = "README.md"
 
 [dependencies]
 bevy = "0.10.1"
-double_dot_macro_derive = { path = "double_dot_macro_derive"}
-# double_dot_macro_derive = "0.1.1"
+# double_dot_macro_derive = { path = "double_dot_macro_derive"}
+double_dot_macro_derive = "0.1.2"
 # double_dot_macro_types = { path = "double_dot_macro_types"}
 double_dot_macro_types = "0.1.0"
 quote = "1.0.33"
