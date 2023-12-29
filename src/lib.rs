@@ -1,6 +1,6 @@
 pub use double_dot_macro_derive::*;
 pub use double_dot_macro_types::*;
-pub trait DoubleStates {
+pub trait DoubleStates: Send + Sync + Default {
     /// Returns the name of the enum
     fn name(&self) -> &'static str;
     /// Attempts to find a valid linear transition for the current self state.
