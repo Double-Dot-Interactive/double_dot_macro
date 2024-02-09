@@ -1,6 +1,6 @@
 [package]
 name = "double_dot_macro"
-version = "0.1.21"
+version = "0.2.0"
 edition = "2021"
 authors = ["doubledotinteractive@gmail.com"]
 description = "Macros for the Double-Dot crate ecosystem"
@@ -13,7 +13,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.10.1"
+bevy = "0.11.1"
 # double_dot_macro_derive = { path = "double_dot_macro_derive"}
 double_dot_macro_derive = "0.1.21"
 # double_dot_macro_types = { path = "double_dot_macro_types"}
