@@ -1538,7 +1538,7 @@ dependencies = [
 
 [[package]]
 name = "double_dot_macro"
-version = "0.2.1"
+version = "0.3.0"
 dependencies = [
  "bevy",
  "double_dot_macro_derive",

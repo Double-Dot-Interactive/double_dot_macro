@@ -1,6 +1,6 @@
 [package]
 name = "double_dot_macro"
-version = "0.2.1"
+version = "0.3.0"
 edition = "2021"
 authors = ["doubledotinteractive@gmail.com"]
 description = "Macros for the Double-Dot crate ecosystem"
