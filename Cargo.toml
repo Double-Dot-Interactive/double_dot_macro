@@ -13,7 +13,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.12.1"
+bevy = "0.13.1"
 # double_dot_macro_derive = { path = "double_dot_macro_derive"}
 double_dot_macro_derive = "0.2.0"
 # double_dot_macro_types = { path = "double_dot_macro_types"}
