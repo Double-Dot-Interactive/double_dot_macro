@@ -4,11 +4,11 @@ pub trait DoubleStates: Send + Sync + Default {
     /// Returns the name of the enum
     fn name(&self) -> &'static str;
     /// Attempts to find a valid linear transition for the current self state.
-    /// 
+    ///
     /// `panics` if no valid linear transition was found for self
     fn linear_transition(&self) -> Self;
     /// Attempts to find a valid arbirary transition for the current self state.
-    /// 
+    ///
     /// `panics` if no valid arbitrary transition was found for self
     fn arbitrary_transition(&self, next_state: &Self) -> Self;
     /// Converts the current self state to a String
@@ -18,6 +18,7 @@ pub trait DoubleStates: Send + Sync + Default {
 }
 
 /// Enum for Testing purposes
+#[allow(dead_code)]
 #[derive(Clone, Eq, PartialEq, Debug, Hash, DoubleStates, Default)]
 enum State {
     #[linear(MainMenu)]
@@ -29,5 +30,5 @@ enum State {
     Playing,
     #[arbitrary(MainMenu, Exit)]
     Paused,
-    Exit
+    Exit,
 }
